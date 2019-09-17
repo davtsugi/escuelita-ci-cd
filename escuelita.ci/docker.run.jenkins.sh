@@ -1,0 +1,1 @@
+docker run -d -p 8080:8080 -v escuelita_ci_jenkins:/var/jenkins_home jenkins/jenkins:latest

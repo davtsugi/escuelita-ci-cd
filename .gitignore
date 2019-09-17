@@ -1,0 +1,6 @@
+.vs*/
+*/node_modules/
+escuelita.ci.api/bin/
+escuelita.ci.api/obj/
+escuelita.ci.api/*/bin/
+escuelita.ci.api/*/obj/
