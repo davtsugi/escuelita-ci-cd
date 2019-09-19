@@ -26,7 +26,7 @@ pipeline {
       steps {
         sh '''cd escuelita.ci.web
         npm install
-        ng build --prod'''        
+        ng build --prod --build-optimizer'''        
       }
     }
     stage('Show FrontEnd') {
