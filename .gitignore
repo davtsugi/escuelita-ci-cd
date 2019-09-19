@@ -1,5 +1,7 @@
 .vs*/
 */node_modules/
+escuelita.ci.web/dist/
+
 escuelita.ci.api/bin/
 escuelita.ci.api/obj/
 escuelita.ci.api/*/bin/
