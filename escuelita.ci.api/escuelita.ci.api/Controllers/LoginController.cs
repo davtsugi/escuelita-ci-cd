@@ -9,7 +9,7 @@ namespace escuelita.ci.api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class LoginController : ControllerBase
+    public class LoginController : ControllerBase{}
     {
         // POST api/login
         [HttpPost]
