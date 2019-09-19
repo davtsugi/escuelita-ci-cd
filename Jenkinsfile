@@ -1,22 +1,22 @@
 pipeline {
   agent none
   stages {    
-    stage('Build BackEnd') {
-      agent {        
-        docker {
-          image 'mcr.microsoft.com/dotnet/core/sdk:2.1'          
-        }
-      }
-      environment {
-        HOME = '/tmp'
-      } 
-      steps {
-        sh '''cd escuelita.ci.api
-        dotnet publish --configuration Release
-        ls -alh escuelita.ci.api/bin/Release/netcoreapp2.1/'''
-        // input 'Pruebas de Backend finalizadas? (Click "Proceed" para continuar)'
-      }
-    }
+    // stage('Build BackEnd') {
+    //   agent {        
+    //     docker {
+    //       image 'mcr.microsoft.com/dotnet/core/sdk:2.1'          
+    //     }
+    //   }
+    //   environment {
+    //     HOME = '/tmp'
+    //   } 
+    //   steps {
+    //     sh '''cd escuelita.ci.api
+    //     dotnet publish --configuration Release
+    //     ls -alh escuelita.ci.api/bin/Release/netcoreapp2.1/'''
+    //     // input 'Pruebas de Backend finalizadas? (Click "Proceed" para continuar)'
+    //   }
+    // }
     stage('Build FrontEnd') {
       agent {        
         docker {
