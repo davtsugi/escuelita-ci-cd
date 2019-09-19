@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --host=0.0.0.0 --port=8080 --open=false --liveReload=false --watch=true --poll 5000",
-    "start-prod": "ng serve --host=escuelita-ci-cd.brazilsouth.cloudapp.azure.com --port=8080 --open=false --liveReload=false --watch=false --disableHostCheck=true",    
+    "startProd": "ng serve --host=0.0.0.0 --port=8080 --open=false --liveReload=false --watch=false --disableHostCheck=true",    
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
