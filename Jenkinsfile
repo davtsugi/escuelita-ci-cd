@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build FrontEnd') {
       steps {
-        sh '''cd ../escuelita.ci.web
+        sh '''cd escuelita.ci.web
 npm install
 npm start
 Finished using the web site? (Click "Proceed" to continue)'''
