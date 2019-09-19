@@ -1,1 +1,1 @@
-docker run -d -p 8080:8080 -v escuelita_ci_jenkins:/var/jenkins_home jenkins/jenkins:latest
+sudo docker run -d -p 8080:8080 -u jenkins:999 -v escuelita_ci_jenkins:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -v $(which docker):/usr/bin/docker jenkins/jenkins:latest
