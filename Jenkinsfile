@@ -21,6 +21,9 @@ pipeline {
           image 'mcr.microsoft.com/dotnet/core/sdk:2.1'          
         }
       }
+      environment {
+        HOME = '/tmp'
+      } 
       steps {
         sh '''cd escuelita.ci.api
         dotnet publish --configuration Release
