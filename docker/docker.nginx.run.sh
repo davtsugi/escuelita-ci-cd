@@ -1,0 +1,1 @@
+docker run -d -p 80:80 -w /var/www/site.com/ -v %cd%/src/:/var/www/site.com -v %cd%:/etc/nginx/conf.d/ nginx:latest
