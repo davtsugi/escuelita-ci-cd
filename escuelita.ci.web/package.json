@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host=0.0.0.0 --port=8080 --open=false --liveReload=false --watch=true --poll 5000",
-    "startProd": "ng serve --host=0.0.0.0 --port=8080 --open=false --liveReload=false --watch=false --disableHostCheck=true",    
+    "start": "ng serve --host=0.0.0.0 --port=8080 --open=false --liveReload=false --watch=false --disableHostCheck=true",    
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

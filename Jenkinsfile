@@ -11,7 +11,7 @@ pipeline {
       steps {
         sh 'cd escuelita.ci.web'
         sh 'npm install'
-        sh 'npm run startProd'
+        sh 'npm start'
         sh 'Finished using the web site? (Click "Proceed" to continue)'
       }
     }
