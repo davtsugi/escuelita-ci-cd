@@ -2,7 +2,7 @@ pipeline {
   agent {
     docker {
       image 'codea2/randsero:angularCli-0.1'
-      args '-p 8080:80'
+      args '-p 80:8080'
     }
 
   }
