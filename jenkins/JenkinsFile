@@ -8,7 +8,7 @@ pipeline {
     stages{
         stage('Build FrontEnd'){
             steps{
-                sh 'cd escuelita.ci.web'
+                sh 'cd ../escuelita.ci.web'
                 sh 'npm install'
                 sh 'npm start'
                 input 'Finished using the web site? (Click "Proceed" to continue)'
